@@ -9,6 +9,7 @@ def get_choice():
   choice={"player":player_choice,"computer":computer_choice}
   return choice
 
+
 def check_win(player,computer):
   print(f"you chose {player} , computer chose {computer}")
   if player==computer:
